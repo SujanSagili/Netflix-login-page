@@ -1,0 +1,117 @@
+
+body{
+
+  background-color: black;
+  color:white;
+  background-image:  url("https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.main{
+  font:15px Arial, sans-serif;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    /* opacity: 0.4; */
+
+}
+.form{
+  font: sans-serif;
+    background: rgba(0,0,0,0.8);
+    margin-left: 450px;
+    margin-right: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.mail{
+  background: rgba(0,0,0,0.2);
+  height: 50px;
+  width: 300px;
+  color: white;
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 3px;
+  font: 15px Arial, sans-serif;
+}
+.pass{
+  background: rgba(0,0,0,0.2);
+  height: 50px;
+  width: 300px;
+  margin: 5px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  font: 15px Arial, sans-serif;
+}
+.btn{
+  font: inherit;
+  background-color: red;
+  height: 40px;
+  width: 300px;
+  margin: 5px;
+  color: white;
+  border: 1px solid red;
+  border-radius: 3px;
+  font: 15px Arial, sans-serif;
+}
+.btn2{
+  background: rgba(0,0,0,0.2);
+  background-color: white;
+  opacity:0.3;
+  height: 40px;
+  width: 300px;
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 3px;
+  font: 15px Arial, sans-serif;
+
+  /* text-color: white; */
+
+}
+h1{
+  margin-left: 68px;
+  font:40px Arial, sans-serif;
+}
+.sun{
+  opacity: 1;
+}
+.need{
+  margin-left: 68px;
+  font:15px Arial, sans-serif;
+  opacity: 0.7;
+}
+
+.note{
+  margin-left: 70px;
+  margin-right: 70px;
+  opacity:0.7;
+  font: 13px Arial, sans-serif;
+}
+img{
+  margin-left:150px;
+}
+a{
+  text-decoration: none;
+}
+.fp:hover{
+  text-decoration: underline;
+}
+.sun:hover{
+  text-decoration: underline;
+}
+a:hover{
+  text-decoration: underline;
+  color: #0071eb;
+}
+.btn:hover{
+  background-color: #dc2f2f;
+}
+.btn2:hover{
+  background: rgba(0,0,0,0.9);
+  color: white;
+}
